@@ -325,7 +325,7 @@ const Projects = () => {
               <div className="h-48 relative overflow-hidden">
                 {project.image ? (
                   <img
-                    src={project.image}
+                    src={`${import.meta.env.BASE_URL}${project.image.replace(/^\//, "")}`}
                     alt={project.imageAlt ?? `${project.title} preview`}
                     className="absolute inset-0 w-full h-full object-cover"
                     loading="lazy"

@@ -58,7 +58,7 @@ const Experience = () => {
     if (exp.iconSrc) {
       return (
         <img
-          src={exp.iconSrc}
+          src={`${import.meta.env.BASE_URL}${exp.iconSrc.replace(/^\//, "")}`}
           alt={exp.iconAlt ?? `${exp.company} logo`}
           className="w-full h-full rounded-full object-cover"
           loading="lazy"

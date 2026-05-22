@@ -49,7 +49,7 @@ const Education = () => {
     if (edu.iconSrc) {
       return (
         <img
-          src={edu.iconSrc}
+          src={`${import.meta.env.BASE_URL}${edu.iconSrc.replace(/^\//, "")}`}
           alt={edu.iconAlt ?? `${edu.school} logo`}
           className="w-full h-full rounded-full object-cover"
           loading="lazy"
