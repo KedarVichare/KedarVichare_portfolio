@@ -13,6 +13,8 @@ const Projects = () => {
       period: "May 2026",
       gradient: "from-fuchsia-500/20 to-violet-500/20",
       categories: ["GenAI"],
+      image: "/multi-agents.jpeg",
+      imageAlt: "Multi-agent image generation pipeline",
     },
     {
       title: "Multimodal RAG for Macroeconomics",
@@ -21,6 +23,8 @@ const Projects = () => {
       period: "May 2026",
       gradient: "from-emerald-500/20 to-sky-500/20",
       categories: ["GenAI"],
+      image: "/multi-modal-rag-featured.jpg",
+      imageAlt: "Multimodal RAG over macroeconomics documents",
     },
     {
       title: "Hierarchical Graph Database with NL Queries",
@@ -29,6 +33,8 @@ const Projects = () => {
       period: "May 2026",
       gradient: "from-indigo-500/20 to-purple-500/20",
       categories: ["Software Engineer"],
+      image: "/graph-db.png",
+      imageAlt: "Hierarchical graph database",
     },
     {
       title: "TwinMind Live — Real-Time AI Meeting Assistant",
@@ -37,6 +43,8 @@ const Projects = () => {
       period: "Apr 2026",
       gradient: "from-blue-500/20 to-teal-500/20",
       categories: ["Software Engineer", "GenAI"],
+      image: "/twinmind.png",
+      imageAlt: "TwinMind real-time meeting assistant",
     },
     {
       title: "Adaptive Pipeline Intelligence Debugger",
@@ -45,6 +53,8 @@ const Projects = () => {
       period: "Apr 2026",
       gradient: "from-rose-500/20 to-amber-500/20",
       categories: ["Data Engineering", "GenAI"],
+      image: "/data-pipeline-debugger.jpeg",
+      imageAlt: "Adaptive pipeline debugger",
     },
     {
       title: "BiLSTM Sentiment Classifier on IMDB",
@@ -53,6 +63,8 @@ const Projects = () => {
       period: "Mar 2026",
       gradient: "from-cyan-500/20 to-blue-500/20",
       categories: ["ML/DL"],
+      image: "/bilstm-imdb-sentiment-analysis.png",
+      imageAlt: "BiLSTM IMDB sentiment classifier",
     },
     {
       title: "CycleGAN Style Transfer (Monet ↔ Photo)",
@@ -69,6 +81,8 @@ const Projects = () => {
       period: "Mar 2026",
       gradient: "from-amber-500/20 to-orange-500/20",
       categories: ["ML/DL"],
+      image: "/rnn.webp",
+      imageAlt: "RNN language model",
     },
     {
       title: "Twitter Sentiment RNN Pipeline",
@@ -77,6 +91,8 @@ const Projects = () => {
       period: "Mar 2026",
       gradient: "from-sky-500/20 to-cyan-500/20",
       categories: ["ML/DL"],
+      image: "/twitter-sentiment-analysis.jpg",
+      imageAlt: "Twitter sentiment analysis",
     },
     {
       title: "DCGAN for Medical Image Synthesis",
@@ -85,6 +101,8 @@ const Projects = () => {
       period: "Mar 2026",
       gradient: "from-red-500/20 to-pink-500/20",
       categories: ["ML/DL"],
+      image: "/dc-gan.png",
+      imageAlt: "DCGAN medical image synthesis",
     },
     {
       title: "Variational Autoencoder on CIFAR-10",
@@ -93,6 +111,8 @@ const Projects = () => {
       period: "Mar 2026",
       gradient: "from-teal-500/20 to-emerald-500/20",
       categories: ["ML/DL"],
+      image: "/vae-cifar10.jpg",
+      imageAlt: "VAE CIFAR-10",
     },
     {
       title: "3D & 2D Medical Imaging CNN Suite",
@@ -109,6 +129,8 @@ const Projects = () => {
       period: "Mar 2026",
       gradient: "from-yellow-500/20 to-amber-500/20",
       categories: ["ML/DL"],
+      image: "/neural-net-mnist.jpeg",
+      imageAlt: "Neural net MNIST",
     },
     {
       title: "20 Newsgroups NLP Pipeline",
@@ -117,6 +139,8 @@ const Projects = () => {
       period: "Mar 2026",
       gradient: "from-violet-500/20 to-indigo-500/20",
       categories: ["ML/DL"],
+      image: "/20-nlp-pipeline.jpg",
+      imageAlt: "20 Newsgroups NLP pipeline",
     },
     {
       title: "Diffusion Probabilistic Model from Scratch",
@@ -133,6 +157,8 @@ const Projects = () => {
       period: "Mar 2026",
       gradient: "from-slate-500/20 to-blue-500/20",
       categories: ["GenAI", "ML/DL"],
+      image: "/gpt-from-scratch.jpeg",
+      imageAlt: "GPT from scratch transformer",
     },
     {
       title: "CUDA Matrix Multiplication (Naive + Tiled)",
@@ -141,6 +167,8 @@ const Projects = () => {
       period: "Mar 2026",
       gradient: "from-green-500/20 to-emerald-500/20",
       categories: ["Software Engineer"],
+      image: "/cuda-matrix-mul.png",
+      imageAlt: "CUDA matrix multiplication",
     },
     {
       title: "CUDA Matrix Addition (2D Thread Blocks)",
@@ -149,6 +177,8 @@ const Projects = () => {
       period: "Mar 2026",
       gradient: "from-emerald-500/20 to-lime-500/20",
       categories: ["Software Engineer"],
+      image: "/cuda-matrix-add.jpg",
+      imageAlt: "CUDA matrix addition",
     },
     {
       title: "AI-Driven Travel & Booking Platform",
