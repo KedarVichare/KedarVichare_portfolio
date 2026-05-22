@@ -13,7 +13,7 @@ const Projects = () => {
       period: "May 2026",
       gradient: "from-fuchsia-500/20 to-violet-500/20",
       categories: ["GenAI"],
-      image: "/multi-agents-image-generation.svg",
+      image: "/multi-agents-image-generation.jpg",
       imageAlt: "Multi-agent image generation pipeline",
     },
     {
@@ -23,7 +23,7 @@ const Projects = () => {
       period: "May 2026",
       gradient: "from-emerald-500/20 to-sky-500/20",
       categories: ["GenAI"],
-      image: "/multimodal-rag-macroeconomics.svg",
+      image: "/multimodal-rag-macroeconomics.jpg",
       imageAlt: "Multimodal RAG over macroeconomics documents",
     },
     {
@@ -33,7 +33,7 @@ const Projects = () => {
       period: "May 2026",
       gradient: "from-indigo-500/20 to-purple-500/20",
       categories: ["Software Engineer"],
-      image: "/custom-graph-database.svg",
+      image: "/custom-graph-database.jpg",
       imageAlt: "Hierarchical graph database with NL queries",
     },
     {
@@ -43,7 +43,7 @@ const Projects = () => {
       period: "Apr 2026",
       gradient: "from-blue-500/20 to-teal-500/20",
       categories: ["Software Engineer", "GenAI"],
-      image: "/twinmind-assignment.svg",
+      image: "/twinmind-assignment.jpg",
       imageAlt: "TwinMind Live real-time meeting assistant",
     },
     {
@@ -53,7 +53,7 @@ const Projects = () => {
       period: "Apr 2026",
       gradient: "from-rose-500/20 to-amber-500/20",
       categories: ["Data Engineering", "GenAI"],
-      image: "/intelligent-pipeline-debugger.svg",
+      image: "/intelligent-pipeline-debugger.jpg",
       imageAlt: "Adaptive pipeline intelligence debugger",
     },
     {
@@ -63,7 +63,7 @@ const Projects = () => {
       period: "Mar 2026",
       gradient: "from-cyan-500/20 to-blue-500/20",
       categories: ["ML/DL"],
-      image: "/nlp-sentiment-bilstm.svg",
+      image: "/nlp-sentiment-bilstm.jpg",
       imageAlt: "BiLSTM sentiment classifier",
     },
     {
@@ -73,7 +73,7 @@ const Projects = () => {
       period: "Mar 2026",
       gradient: "from-purple-500/20 to-pink-500/20",
       categories: ["ML/DL"],
-      image: "/cyclegan-pytorch.svg",
+      image: "/cyclegan-pytorch.jpg",
       imageAlt: "CycleGAN Monet style transfer",
     },
     {
@@ -83,7 +83,7 @@ const Projects = () => {
       period: "Mar 2026",
       gradient: "from-amber-500/20 to-orange-500/20",
       categories: ["ML/DL"],
-      image: "/moby-dick-lm-suite.svg",
+      image: "/moby-dick-lm-suite.jpg",
       imageAlt: "Moby Dick language modeling suite",
     },
     {
@@ -93,7 +93,7 @@ const Projects = () => {
       period: "Mar 2026",
       gradient: "from-sky-500/20 to-cyan-500/20",
       categories: ["ML/DL"],
-      image: "/twitter-sentiment-rnn-pipeline.svg",
+      image: "/twitter-sentiment-rnn-pipeline.jpg",
       imageAlt: "Twitter sentiment RNN pipeline",
     },
     {
@@ -103,7 +103,7 @@ const Projects = () => {
       period: "Mar 2026",
       gradient: "from-red-500/20 to-pink-500/20",
       categories: ["ML/DL"],
-      image: "/generative-dcgan-medical.svg",
+      image: "/generative-dcgan-medical.jpg",
       imageAlt: "DCGAN medical image synthesis",
     },
     {
@@ -113,7 +113,7 @@ const Projects = () => {
       period: "Mar 2026",
       gradient: "from-teal-500/20 to-emerald-500/20",
       categories: ["ML/DL"],
-      image: "/variational-autoencoder-cifar10.svg",
+      image: "/variational-autoencoder-cifar10.jpg",
       imageAlt: "Variational autoencoder CIFAR-10",
     },
     {
@@ -123,7 +123,7 @@ const Projects = () => {
       period: "Mar 2026",
       gradient: "from-lime-500/20 to-green-500/20",
       categories: ["ML/DL"],
-      image: "/3d-2d-medical-imaging-cnn.svg",
+      image: "/3d-2d-medical-imaging-cnn.jpg",
       imageAlt: "3D and 2D medical imaging CNN suite",
     },
     {
@@ -133,7 +133,7 @@ const Projects = () => {
       period: "Mar 2026",
       gradient: "from-yellow-500/20 to-amber-500/20",
       categories: ["ML/DL"],
-      image: "/neural-net-mnist.svg",
+      image: "/neural-net-mnist.jpg",
       imageAlt: "Neural net MNIST classifier",
     },
     {
@@ -143,7 +143,7 @@ const Projects = () => {
       period: "Mar 2026",
       gradient: "from-violet-500/20 to-indigo-500/20",
       categories: ["ML/DL"],
-      image: "/nlp-pipeline.svg",
+      image: "/nlp-pipeline.jpg",
       imageAlt: "20 Newsgroups NLP pipeline",
     },
     {
@@ -153,7 +153,7 @@ const Projects = () => {
       period: "Mar 2026",
       gradient: "from-pink-500/20 to-rose-500/20",
       categories: ["GenAI", "ML/DL"],
-      image: "/generative-diffusion-model.svg",
+      image: "/generative-diffusion-model.jpg",
       imageAlt: "Generative diffusion model",
     },
     {
@@ -163,7 +163,7 @@ const Projects = () => {
       period: "Mar 2026",
       gradient: "from-slate-500/20 to-blue-500/20",
       categories: ["GenAI", "ML/DL"],
-      image: "/gpt-from-scratch.svg",
+      image: "/gpt-from-scratch.jpg",
       imageAlt: "GPT from scratch transformer",
     },
     {
@@ -173,7 +173,7 @@ const Projects = () => {
       period: "Mar 2026",
       gradient: "from-green-500/20 to-emerald-500/20",
       categories: ["Software Engineer"],
-      image: "/cuda-matrix-multiply.svg",
+      image: "/cuda-matrix-multiply.jpg",
       imageAlt: "CUDA matrix multiplication",
     },
     {
@@ -183,7 +183,7 @@ const Projects = () => {
       period: "Mar 2026",
       gradient: "from-emerald-500/20 to-lime-500/20",
       categories: ["Software Engineer"],
-      image: "/cuda-matrix-addition.svg",
+      image: "/cuda-matrix-addition.jpg",
       imageAlt: "CUDA matrix addition",
     },
     {
