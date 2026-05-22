@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" role="img" aria-label="GPT From Scratch">
+  <defs>
+    <linearGradient id="bg-gpt-from-scratch" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#64748b"/>
+      <stop offset="100%" stop-color="#3b82f6"/>
+    </linearGradient>
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6"/>
+    </filter>
+  </defs>
+  <rect width="800" height="500" fill="url(#bg-gpt-from-scratch)"/>
+  <rect width="800" height="500" fill="rgba(15,23,42,0.18)"/>
+  <g transform="translate(400 210)" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" opacity="0.95">
+    <rect x="-80" y="-108" width="160" height="36" rx="8" fill="rgba(255,255,255,0.2)"/>
+    <text x="0" y="-85" text-anchor="middle" fill="#ffffff" stroke="none" font-family="Inter" font-size="14" font-weight="600">attention</text>
+    <rect x="-80" y="-48" width="160" height="36" rx="8" fill="rgba(255,255,255,0.2)"/>
+    <text x="0" y="-25" text-anchor="middle" fill="#ffffff" stroke="none" font-family="Inter" font-size="14" font-weight="600">feed-forward</text>
+    <rect x="-80" y="12" width="160" height="36" rx="8" fill="rgba(255,255,255,0.2)"/>
+    <text x="0" y="35" text-anchor="middle" fill="#ffffff" stroke="none" font-family="Inter" font-size="14" font-weight="600">attention</text>
+    <rect x="-80" y="72" width="160" height="36" rx="8" fill="rgba(255,255,255,0.2)"/>
+    <text x="0" y="95" text-anchor="middle" fill="#ffffff" stroke="none" font-family="Inter" font-size="14" font-weight="600">feed-forward</text>
+  </g>
+  <text x="400" y="420" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="34" font-weight="700" fill="#ffffff" letter-spacing="0.5">GPT From Scratch</text>
+</svg>
