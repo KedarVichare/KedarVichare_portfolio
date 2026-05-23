@@ -121,6 +121,8 @@ const Projects = () => {
       period: "Mar 2026",
       gradient: "from-lime-500/20 to-green-500/20",
       categories: ["ML/DL"],
+      image: "/vgg16-2d2d.jpg",
+      imageAlt: "3D and 2D medical imaging CNN suite",
     },
     {
       title: "Neural Net MNIST Binary Classifier",
@@ -149,6 +151,8 @@ const Projects = () => {
       period: "Mar 2026",
       gradient: "from-pink-500/20 to-rose-500/20",
       categories: ["GenAI", "ML/DL"],
+      image: "/diffusion-models-2.png",
+      imageAlt: "Diffusion probabilistic model samples",
     },
     {
       title: "GPT from Scratch",

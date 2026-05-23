@@ -15,13 +15,25 @@ type ExperienceItem = {
 const Experience = () => {
   const experiences: ExperienceItem[] = [
     {
+      title: "AI Engineer",
+      company: "Hanna Center",
+      period: "Jan 2026 – Present",
+      description: [
+        "Built a trauma-informed AI clinical assistant powered by a multimodal RAG knowledge base, retrieving text, tables, and figures from clinical PDFs using BGE-large text embeddings, CLIP ViT-B/32 image embeddings, and PostgreSQL with pgvector.",
+        "Optimized chunking, retrieval, and prompt assembly to reduce token usage by 90% and API costs by 85%, and implemented CI/CD pipelines with GitHub Actions for automated Docker builds, testing, deployment to AWS EC2, and workflow monitoring.",
+        "Built a Teams-to-Salesforce incident reporting workflow where care staff triggered a Teams bot, AWS Lambda generated a structured incident template, and completed submissions were posted directly to Salesforce, reducing incident documentation time from 10 minutes to 2 minutes per report.",
+      ],
+      iconSrc: "/hannacenter.png",
+      iconAlt: "Hanna Center logo",
+      side: "left",
+    },
+    {
       title: "Research Assistant / Student Assistant",
       company: "San Jose State University",
       period: "May 2025 – Present",
       description: [
-        "Assisted Professor in Data Structures and Algorithms (DSA) course, supporting lab sessions focused on C++ and Python implementations.",
-        "Conducted weekly coding office hours for 30+ undergraduate students, explaining concepts like recursion, time complexity, and OOP design.",
-        "Maintained an internal GitHub repository with solved problems and coding guidelines for DSA labs.",
+        "Supported Data Structures and Algorithms labs in Python, guiding students through debugging, runtime analysis, and implementation of trees, linked lists, and recursion.",
+        "Built structured rubrics, feedback templates, and solution documentation to standardize evaluation workflows and reduce manual grading effort by 60%.",
       ],
       iconSrc: "/SJSU.jpg",
       iconAlt: "San Jose State University logo",
@@ -32,9 +44,10 @@ const Experience = () => {
       company: "Reliance Jio",
       period: "Apr 2021 – Jul 2024",
       description: [
-        "Designed and developed a personalized product recommendation system using Python, LightGBM, and SQL, driving a 7-8% increase in sales conversions.",
-        "Developed a full-stack web application prototype using React, Node.js/Express, and MySQL with AI-driven services via FastAPI + LangChain.",
-        "Performed traffic analysis using Python, Pandas, and SciPy, leading to a 20% increase in product page engagement and DAU growth from 2.5M to 3M.",
+        "Architected a cloud-native, microservices-based travel booking platform on AWS EKS, using Apache Kafka for event-driven workflows, Redis caching to reduce database load, and CloudWatch monitoring to cut API response times by 40%.",
+        "Scaled backend services to support 10K+ concurrent requests with 99.9% uptime, while modularizing search, booking, inventory, and recommendation services with clear API contracts and fault-isolated service boundaries.",
+        "Built a personalized recommendation engine using behavioral signals, ranking features, and feedback loops, with monitoring, drift checks, and retraining workflows integrated into the production ML lifecycle.",
+        "Developed Pandas/SciPy traffic analysis pipelines across multiple regions, increasing product-page engagement by 20% and growing daily active users from 2.5M to 3M.",
       ],
       iconSrc: "/JIO.png",
       iconAlt: "Reliance Jio logo",
